@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+.container-standart{
+    width: 100%;
+    background-color: rgb(216, 214, 214);
+    border: 1px solid black;
+    height: 60px;
+    margin: 5px;
+}
+
+.float-right{
+    float: right;
+    width: 15%;
+    height: 50px;
+    background-color: gray;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.float-left{
+    float: left;
+    width: 15%;
+    height: 50px;
+    background-color: gray;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.container-large{
+    width: 100%;
+    background-color: rgb(216, 214, 214);
+    border: 1px solid black;
+    height: 124px;
+    margin: 5px;
+}
+
+.container-small-right{
+    height: 100%;
+    margin: 0px;
+    background-color: rgb(216, 214, 214);
+    width: 31%;
+    border: none;
+}
+
+.float-left-large{
+    float: left;
+    width: 48.5%;
+    height: 110px;
+    background-color: gray;
+    border: 1px solid black;
+    margin: 5px 0; 
+    text-align: center;
+    line-height: 110px;
+}
+
+.float-right-small{
+    float: right;
+    width: 48.5%;
+    height: 50px;
+    background-color: gray;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.container-small-centered{
+    height: 100%;
+    width: 31%;
+    margin: auto;
+    background-color: rgb(216, 214, 214);
+    border: none;
+}
